@@ -37,7 +37,7 @@ I created and deployed the Python code to an AWS Lambda function.
 <img src="images/trigger.JPG"</img>
 I configured an S3 Trigger on the Input Bucket. This makes the Lambda function start only when a new file with the .txt suffix is uploaded.
 
-<h2>Text 2 Speech test <br/></h2>
+<h2>File Upload <br/></h2>
 <img src="images/testscreenshot.JPG"</img>
 I uploaded a file named test.txt to the Input Bucket, which automatically started the Lambda function.
 
