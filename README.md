@@ -53,5 +53,3 @@ The Lambda function saves the .mp3 file to the Output Bucket, where you can down
 <h2>Goal:</h2>
 The goal of this project was to create a fully automated, serverless process on AWS that converts text into speech. This project demonstrates my knowledge in connecting cloud services (S3, Lambda, and Polly) to execute an event-driven file conversion pipeline.
 
-<h2>Goal:</h2>
-To build practical skills that can be directly applied in IT roles involving network and systems administration.
