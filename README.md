@@ -26,7 +26,7 @@ This project is a serverless text-to-speech system built with AWS. It automatica
 I created two Amazon S3 buckets: one for the Input Text Files and one for Output Audio Files.
 <p align="center">
 <h2>Setup S3 Buckets <br/></h2>
-<img src="images/TScombinedVM.JPG"</img>
+<img src="images/2bucketscreated.JPG"</img>
 After this I created an IAM Role to grant the Lambda function only the specific permissions needed: reading S3, writing to S3, and calling the Polly service.
   
 <h2>Lambda Setup <br/></h2>
