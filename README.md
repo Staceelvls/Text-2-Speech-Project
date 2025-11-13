@@ -34,11 +34,11 @@ After this I created an IAM Role to grant the Lambda function only the specific 
 I created and deployed the Python code to an AWS Lambda function.
 
 <h2>Trigger Setup  <br/></h2>
-<img src="images/TSconfignet.JPG"</img>
+<img src="images/trigger.JPG"</img>
 I configured an S3 Trigger on the Input Bucket. This makes the Lambda function start only when a new file with the .txt suffix is uploaded.
 
 <h2>Text 2 Speech test <br/></h2>
-<img src="images/TSADservermanager.JPG"</img>
+<img src="images/testscreenshot.JPG"</img>
 I uploaded a file named test.txt to the Input Bucket, which automatically started the Lambda function.
 
 The Python code read the text and passed it to Amazon Polly.
@@ -46,8 +46,12 @@ The Python code read the text and passed it to Amazon Polly.
 Then Polly synthesizes the speech, and generates the .mp3 audio stream.
 
 <h2>Final Outcome <br/></h2>
-<img src="images/TSadduser.JPG"</img>
+<img src="images/textmp3.JPG"</img>
 The Lambda function saves the .mp3 file to the Output Bucket, where you can download and listen.
+<audio controls>
+  <source src="https://github.com/Staceelvls/Text-2-Speech-Project/raw/refs/heads/main/images/test.mp3" type="audio/mpeg">
+</audio>
+
 </p>
 
 <h2>Goal:</h2>
