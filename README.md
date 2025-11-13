@@ -48,9 +48,9 @@ Then Polly synthesizes the speech, and generates the .mp3 audio stream.
 <h2>Final Outcome <br/></h2>
 <img src="images/textmp3.JPG"</img>
 The Lambda function saves the .mp3 file to the Output Bucket, where you can download and listen.
-<audio controls>
-  <source src="https://github.com/Staceelvls/Text-2-Speech-Project/raw/refs/heads/main/images/test.mp3" type="audio/mpeg">
-</audio>
+<img src="images/mp3player.JPG"</img>
+
+[**Click Here to Listen/Download the MP3 Sample**](https://github.com/Staceelvls/Text-2-Speech-Project/raw/refs/heads/main/images/test.mp3)
 
 </p>
 
