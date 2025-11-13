@@ -30,7 +30,7 @@ I created two Amazon S3 buckets: one for the Input Text Files and one for Output
 After this I created an IAM Role to grant the Lambda function only the specific permissions needed: reading S3, writing to S3, and calling the Polly service.
   
 <h2>Lambda Setup <br/></h2>
-<img src="images/VMADgram.jpg"</img>
+<img src="images/lambda.JPG"</img>
 I created and deployed the Python code to an AWS Lambda function.
 
 <h2>Trigger Setup  <br/></h2>
