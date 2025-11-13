@@ -1,4 +1,4 @@
-<h1><img src="images/githubAD.png"</img></h1>
+<h1><img src="images/s2pbanner1.JPG"</img></h1>
 
 <h2>Description</h2>
 This project is a serverless text-to-speech system built with AWS. It automatically triggers a Lambda function when something is uploaded to S3. I used Amazon Polly to convert text files into MP3 audio. Once that is complete the  file will be sent to an output folder.
