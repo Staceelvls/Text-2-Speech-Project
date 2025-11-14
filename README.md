@@ -27,6 +27,9 @@ I created two Amazon S3 buckets: one for the Input Text Files and one for Output
 <p align="center">
 <h2>Setup S3 Buckets <br/></h2>
 <img src="images/2bucketscreated.JPG"</img>
+
+<h2>Permission Setup <br/></h2>
+<img src="images/iamrole.JPG"</img>  
 After this I created an IAM Role to grant the Lambda function only the specific permissions needed: reading S3, writing to S3, and calling the Polly service.
   
 <h2>Lambda Setup <br/></h2>
