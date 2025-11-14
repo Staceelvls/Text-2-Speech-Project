@@ -16,16 +16,15 @@ This project is a serverless text-to-speech system built with AWS. It automatica
 
 <h2>🖥️Environments Used💻 </h2>
 
-- <b>Amazon Web Services</b> (21H2)
+- <b>Amazon Web Services</b>
 - <b>AWS Lambda Managed Runtime - Python 3.13</b>
 - <b>S3 Standard Storage</b>
 
-<h2>Project walk-through:</h2>
-
----
+## Project walk-through:
 
 
-### 1. Setup S3 Buckets 
+
+### 1. ☁️ Setup S3 Buckets 
   I created two Amazon S3 buckets: one for the Input Text Files and one for Output Audio Files.
 <img src="images/2bucketscreated.JPG" width="800" />
   
