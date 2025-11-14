@@ -27,14 +27,21 @@ I created two Amazon S3 buckets: one for the Input Text Files and one for Output
 <p align="center">
 <h2>Setup S3 Buckets <br/></h2>
 <img src="images/2bucketscreated.JPG"</img>
-
-<h2>Permission Setup <br/></h2>
-<img src="images/iamrole.JPG"</img>  
-After this I created an IAM Role to grant the Lambda function only the specific permissions needed: reading S3, writing to S3, and calling the Polly service.
   
-<h2>Lambda Setup <br/></h2>
-<img src="images/lambda.JPG"</img>
+---
+### 2. 🔑 Permission (IAM) Setup 
+After this I created an IAM Role to grant the Lambda function only the specific permissions needed: reading S3, writing to S3, and calling the Polly service.
+
+
+<img src="images/iamrole.JPG" width="800" />  
+
+---  
+### 3. 💻 Lambda Function
 I created and deployed the Python code to an AWS Lambda function.
+
+
+<img src="images/lambda.JPG" width="800" />
+
 
 <h2>Trigger Setup  <br/></h2>
 <img src="images/trigger.JPG"</img>
@@ -64,4 +71,7 @@ The Lambda function saves the .mp3 file to the Output Bucket, where you can down
 
 <h2>Goal:</h2>
 The goal of this project was to create a fully automated, serverless process on AWS that converts text into speech. This project demonstrates my knowledge in connecting cloud services (S3, Lambda, and Polly) to execute an event-driven file conversion pipeline.
+
+
+---
 
