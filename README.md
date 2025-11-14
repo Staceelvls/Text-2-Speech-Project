@@ -43,25 +43,34 @@ I created and deployed the Python code to an AWS Lambda function.
 
 <img src="images/lambda.JPG" width="800" />
 
-
-<h2>Trigger Setup  <br/></h2>
-<img src="images/trigger.JPG"</img>
+---
+### 4. Trigger Setup
 I configured an S3 Trigger on the Input Bucket. This makes the Lambda function start only when a new file with the .txt suffix is uploaded.
 
-<h2>File Upload <br/></h2>
-<img src="images/testscreenshot.JPG"</img>
-I uploaded a file named test.txt to the Input Bucket, which automatically started the Lambda function.
 
-The Python code read the text and passed it to Amazon Polly.
+<img src="images/trigger.JPG" width="800" />
 
+---
+### 5. File Upload (Input Bucket)
+I uploaded a file named test.txt to the Input Bucket, which automatically starts the Lambda function.
+
+
+<img src="images/testscreenshot.JPG" width="800" />
+
+
+
+---
+### 6. MP3 Creation (Output Bucket)
+The Python code will read the text and pass it to Amazon Polly.
 Then Polly synthesizes the speech, and generates the .mp3 audio stream.
-
-<h2>Final Outcome <br/></h2>
-<img src="images/textmp3.JPG"</img>
-
 The Lambda function saves the .mp3 file to the Output Bucket, where you can download and listen.
 
 
+<img src="images/textmp3.JPG" width="800" />
+
+
+---
+### 7. Final Outcome
 
   <img src="images/mp3player.JPG" width="400" />
 
