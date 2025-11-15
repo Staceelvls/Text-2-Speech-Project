@@ -1,7 +1,7 @@
 <h1><img src="images/s2pbanner1.JPG"</img></h1>
 
 <h2>Description</h2>
-This project is a serverless text-to-speech system built with AWS. It automatically triggers a Lambda function when something is uploaded to S3. I used Amazon Polly to convert text files into MP3 audio. Once that is complete the  file will be sent to an output folder.
+This project is a serverless text-to-speech system built with AWS. As a big fan of Audible and listening to books, I was interested in learning how to build my own version of a tool like this. The way it works is, the system automatically triggers a Lambda function when a text file is uploaded to S3, using Amazon Polly to convert the text into MP3 audio. The finished audio file is then automatically sent to an output folder.
 <br />
 
 
